@@ -1,0 +1,6 @@
+__default__:
+  partition: "standard"
+  cpus: "4"
+  time: "00:10:00"
+  mem: "1g"
+  output: "logs_slurm/{rule}.{wildcards}.out"
