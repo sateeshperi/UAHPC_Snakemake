@@ -1,0 +1,9 @@
+# cluster_config.yml - cluster configuration
+__default__:
+    account: "bjoyce3"
+    partition: "standard"
+    time: "00:20:00" # time limit for each job
+    cpus: "4" #Request n cores be allocated per node.
+    mem: "4g"
+    output: "logs_slurm/{rule}.{wildcards}.out"
+    error: "logs_slurm/{rule}.{wildcards}.err"
